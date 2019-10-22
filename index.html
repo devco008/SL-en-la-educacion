@@ -1,14 +1,22 @@
 <!doctype html>
-<html>
+<html lang="es">
+
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Software Libre en la Educación</title>
+
+		<meta name="description" content="Presentación sobre el software libre en la educación.">
+		<meta name="author" content="Carlos Ochoa">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/monokai.css">
@@ -21,29 +29,205 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
 	</head>
+
 	<body>
+
 		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<img src="img/detp.png" alt="Dirección de Educación Técnico Profesional">
+					<img src="img/aed.png" alt="Area de Educación Digital">
+					<h2>Software libre en la educación</h2>
+					<p>
+						<small>Por <a href="http://www.twitter.com/t_carlosochoa">Carlos Ochoa</a></small>
+					</p>
+				</section>
+				<!--Software libre-->
+				<section>
+					<section>
+						<h3>¿Qué es el software libre?</h3>
+						<p>
+							Software que una vez obtenido, puede ser usado, estudiado, modificado y distribuido libremente.
+						</p>
+						<strong>Libre != Gratis</strong>
+					</section>
+					<section>
+						<h3>Libertades del software libre</h3>					
+						<ol start="0">
+							<li>La libertad de usar el programa con cualquier propósito.</li>
+							<li>La libertad de estudiar como funciona el programa y adaptarlos a sus necesidades.</li>
+							<li>La libertad de distribuir copias</li>
+							<li>La libertad de mejorar el programa y hacer públicas las mejoras a los demas.</li>
+						</ol>
+					</section>
+				</section>				
+				<!-- Software libre vs privativo-->
+				<section>
+					<h3>Software libre y propietario</h3>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/9TaeUpgqXSI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</section>
+				<!-- Relacion SL vs privativo -->
+				<section>
+					<h3>Relación Software Libre y Educación</h3>
+					<video src="http://audio-video.gnu.org/video/rms-education-es-high-sub.es.ogv" controls title="¿Cuál es la relación entre el software libre y la educación?">
+					  	Tu navegador no implementa el elemento <code>video</code>.
+					</video>
+				</section>
+				<!-- Uso del software libre en la educacion-->
+				<section>
+					<h3>¿Por qué usar software libre en la Educación?</h3>				
+					<ul>
+						<li>Crear profesionales independientes de un determinado entorno de software.</li>
+						<li>Reduce costos.</li>
+						<li>Permite que los alumnos puedan usar el mismo software con el que se enseña.</li>
+						<li>Ofrece control sobre el software.</li>
+					</ul>
+				</section>
+				<!-- Tipos de software -->
+				<section>
+					<h3>Tipos de software</h3>
+					<ul>
+						<li>Software de sistemas (Sistemas Operativos).</li>
+						<li>Software de aplicación.</li>
+						<li>Software de programación.</li>
+					</ul>
+				</section>
+				<!-- Software de sistemas-->
+				<section>
+					<section>
+						<h3>Sistemas Operativos</h3>
+						<p>
+							El Sistema Operativo es aquel que proporciona programas a los cuales tienen como función principal ayudar en el funcionamiento y desarrollo de las labores de la computadora, asi como tambien le dice a la computadora como usar sus propios componentes.
+						</p>
+						<img src="img/so.png" alt="Sistemas operativos">
+					</section>
+					<section>
+						<h3>Distribuciones GNU/Linux</h3>
+						<img src="img/distros.png" alt="Distribuciones GNU/Linux">
+					</section>
+				</section>
+				<!-- Aplicativos -->
+				<section>
+					<section>
+						<h3>Software de aplicación</h3>
+						<p>
+							Son programas que ayudan a los usuarios a realizar cualquier tipo de tarea imaginable, desde un procesador de texto hasta una infinidad de tareas especificas.
+						</p>
+					</section>
+					<section>
+						<h3>Software de aplicación</h3>
+						<ul>
+							<li>Procesadores de Texto</li>
+							<li>Planillas de cáculo.</li>
+							<li>Graficadores</li>
+							<li>Reproductores de Audio y video.</li>
+							<li>Etc.</li>
+						</ul>
+					</section>
+					<section>
+						<h3>Alternativas libres vs privadas</h3>
+						<table>
+							<thead>
+								<tr>
+									<th>Libre</th>
+									<th>Privada</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Libre Office</td>
+									<td>Microsoft Office</td>
+								</tr>
+								<tr>
+									<td>Dia</td>
+									<td>Visio</td>
+								</tr>
+								<tr>
+									<td>Planner / Gantt Project</td>
+									<td>MS-Project</td>
+								</tr>
+								<tr>
+									<td>VLC Multimedia</td>
+									<td>Windows Media Player</td>
+								</tr>
+								<tr>
+									<td>Gimp</td>
+									<td>Photoshop</td>
+								</tr>
+							</tbody>
+						</table>
+					</section>
+					<section>
+						<h3>Alternativas libres vs privadas</h3>
+						<table>
+							<thead>
+								<tr>
+									<th>Libre</th>
+									<th>Privada</th>
+								</tr>
+							</thead>
+							<tbody>								
+								<tr>
+									<td>Mozilla Firefox</td>
+									<td>Edge</td>
+								</tr>
+								<tr>
+									<td>mumble</td>
+									<td>Skype</td>
+								</tr>
+								<tr>
+									<td>Brasero</td>
+									<td>Nero</td>
+								</tr>
+								<tr>
+									<td>Audacity</td>
+									<td>Adobe Audition</td>
+								</tr>
+							</tbody>
+						</table>
+					</section>
+				</section>
+
+				<section style="text-align: left;">
+					<h1>FIN</h1>					
+				</section>
+
 			</div>
+
 		</div>
 
 		<script src="js/reveal.js"></script>
 
 		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
+
+			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true }
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true },
+					{ src: 'plugin/search/search.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
 				]
 			});
+
 		</script>
+
 	</body>
 </html>
